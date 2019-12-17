@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC445D4423A66DBA0054FE78 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC445D4323A66DBA0054FE78 /* Trip.swift */; };
+		CC445D4623A673660054FE78 /* TripRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC445D4523A673660054FE78 /* TripRow.swift */; };
+		CC445D4823A679710054FE78 /* TripList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC445D4723A679710054FE78 /* TripList.swift */; };
+		CC445D4A23A68CE90054FE78 /* AddTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC445D4923A68CE90054FE78 /* AddTrip.swift */; };
+		CC445D4C23A68FF80054FE78 /* TripDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC445D4B23A68FF80054FE78 /* TripDetail.swift */; };
+		CCDBF02A23A8FDD3005798A9 /* AddTripTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDBF02923A8FDD3005798A9 /* AddTripTextField.swift */; };
+		CCDBF03123A923B2005798A9 /* AddTripDateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDBF03023A923B2005798A9 /* AddTripDateField.swift */; };
+		CCDBF03723A92E75005798A9 /* AddTripSliderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDBF03623A92E75005798A9 /* AddTripSliderField.swift */; };
+		CCDBF03A23A93A43005798A9 /* AddTripSegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDBF03923A93A43005798A9 /* AddTripSegmentedPicker.swift */; };
+		CCDBF03D23A93FBA005798A9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDBF03C23A93FBA005798A9 /* MapView.swift */; };
+		CCF61D1A23A66B6800633A84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF61D1923A66B6800633A84 /* AppDelegate.swift */; };
+		CCF61D1C23A66B6800633A84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF61D1B23A66B6800633A84 /* SceneDelegate.swift */; };
+		CCF61D1F23A66B6800633A84 /* MyTrips.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCF61D1D23A66B6800633A84 /* MyTrips.xcdatamodeld */; };
+		CCF61D2323A66B6900633A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF61D2223A66B6900633A84 /* Assets.xcassets */; };
+		CCF61D2623A66B6900633A84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF61D2523A66B6900633A84 /* Preview Assets.xcassets */; };
+		CCF61D2923A66B6900633A84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF61D2723A66B6900633A84 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC445D4323A66DBA0054FE78 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		CC445D4523A673660054FE78 /* TripRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRow.swift; sourceTree = "<group>"; };
+		CC445D4723A679710054FE78 /* TripList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripList.swift; sourceTree = "<group>"; };
+		CC445D4923A68CE90054FE78 /* AddTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTrip.swift; sourceTree = "<group>"; };
+		CC445D4B23A68FF80054FE78 /* TripDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetail.swift; sourceTree = "<group>"; };
+		CCDBF02923A8FDD3005798A9 /* AddTripTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripTextField.swift; sourceTree = "<group>"; };
+		CCDBF03023A923B2005798A9 /* AddTripDateField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripDateField.swift; sourceTree = "<group>"; };
+		CCDBF03623A92E75005798A9 /* AddTripSliderField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripSliderField.swift; sourceTree = "<group>"; };
+		CCDBF03923A93A43005798A9 /* AddTripSegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripSegmentedPicker.swift; sourceTree = "<group>"; };
+		CCDBF03C23A93FBA005798A9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CCF61D1623A66B6800633A84 /* MyTrips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTrips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF61D1923A66B6800633A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCF61D1B23A66B6800633A84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCF61D1E23A66B6800633A84 /* MyTrips.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyTrips.xcdatamodel; sourceTree = "<group>"; };
+		CCF61D2223A66B6900633A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCF61D2523A66B6900633A84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCF61D2823A66B6900633A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCF61D2A23A66B6900633A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF61D1323A66B6800633A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC445D4223A66D340054FE78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCF61D1D23A66B6800633A84 /* MyTrips.xcdatamodeld */,
+				CC445D4323A66DBA0054FE78 /* Trip.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CCDBF02B23A9228A005798A9 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCDBF02923A8FDD3005798A9 /* AddTripTextField.swift */,
+				CCDBF03023A923B2005798A9 /* AddTripDateField.swift */,
+				CCDBF03623A92E75005798A9 /* AddTripSliderField.swift */,
+				CCDBF03923A93A43005798A9 /* AddTripSegmentedPicker.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		CCDBF02D23A922B9005798A9 /* AddTrip */ = {
+			isa = PBXGroup;
+			children = (
+				CC445D4923A68CE90054FE78 /* AddTrip.swift */,
+				CCDBF02B23A9228A005798A9 /* Supporting Views */,
+			);
+			path = AddTrip;
+			sourceTree = "<group>";
+		};
+		CCDBF03223A9295C005798A9 /* TripList */ = {
+			isa = PBXGroup;
+			children = (
+				CC445D4723A679710054FE78 /* TripList.swift */,
+				CCDBF03323A92967005798A9 /* Supporting Views */,
+			);
+			path = TripList;
+			sourceTree = "<group>";
+		};
+		CCDBF03323A92967005798A9 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC445D4523A673660054FE78 /* TripRow.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		CCDBF03823A93668005798A9 /* TripDetail */ = {
+			isa = PBXGroup;
+			children = (
+				CC445D4B23A68FF80054FE78 /* TripDetail.swift */,
+				CCDBF03B23A93FAB005798A9 /* Supporting Views */,
+			);
+			path = TripDetail;
+			sourceTree = "<group>";
+		};
+		CCDBF03B23A93FAB005798A9 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCDBF03C23A93FBA005798A9 /* MapView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		CCF61D0D23A66B6800633A84 = {
+			isa = PBXGroup;
+			children = (
+				CCF61D1823A66B6800633A84 /* MyTrips */,
+				CCF61D1723A66B6800633A84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF61D1723A66B6800633A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF61D1623A66B6800633A84 /* MyTrips.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF61D1823A66B6800633A84 /* MyTrips */ = {
+			isa = PBXGroup;
+			children = (
+				CCF61D1923A66B6800633A84 /* AppDelegate.swift */,
+				CC445D4223A66D340054FE78 /* Models */,
+				CCF61D1B23A66B6800633A84 /* SceneDelegate.swift */,
+				CCDBF03223A9295C005798A9 /* TripList */,
+				CCDBF03823A93668005798A9 /* TripDetail */,
+				CCDBF02D23A922B9005798A9 /* AddTrip */,
+				CCF61D2223A66B6900633A84 /* Assets.xcassets */,
+				CCF61D2723A66B6900633A84 /* LaunchScreen.storyboard */,
+				CCF61D2A23A66B6900633A84 /* Info.plist */,
+				CCF61D2423A66B6900633A84 /* Preview Content */,
+			);
+			path = MyTrips;
+			sourceTree = "<group>";
+		};
+		CCF61D2423A66B6900633A84 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCF61D2523A66B6900633A84 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF61D1523A66B6800633A84 /* MyTrips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF61D2D23A66B6900633A84 /* Build configuration list for PBXNativeTarget "MyTrips" */;
+			buildPhases = (
+				CCF61D1223A66B6800633A84 /* Sources */,
+				CCF61D1323A66B6800633A84 /* Frameworks */,
+				CCF61D1423A66B6800633A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTrips;
+			productName = MyTrips;
+			productReference = CCF61D1623A66B6800633A84 /* MyTrips.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF61D0E23A66B6800633A84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = giulia;
+				TargetAttributes = {
+					CCF61D1523A66B6800633A84 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CCF61D1123A66B6800633A84 /* Build configuration list for PBXProject "MyTrips" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF61D0D23A66B6800633A84;
+			productRefGroup = CCF61D1723A66B6800633A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF61D1523A66B6800633A84 /* MyTrips */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF61D1423A66B6800633A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF61D2923A66B6900633A84 /* LaunchScreen.storyboard in Resources */,
+				CCF61D2623A66B6900633A84 /* Preview Assets.xcassets in Resources */,
+				CCF61D2323A66B6900633A84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF61D1223A66B6800633A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDBF03A23A93A43005798A9 /* AddTripSegmentedPicker.swift in Sources */,
+				CC445D4A23A68CE90054FE78 /* AddTrip.swift in Sources */,
+				CCDBF03723A92E75005798A9 /* AddTripSliderField.swift in Sources */,
+				CCDBF02A23A8FDD3005798A9 /* AddTripTextField.swift in Sources */,
+				CCDBF03D23A93FBA005798A9 /* MapView.swift in Sources */,
+				CC445D4423A66DBA0054FE78 /* Trip.swift in Sources */,
+				CCF61D1A23A66B6800633A84 /* AppDelegate.swift in Sources */,
+				CCF61D1C23A66B6800633A84 /* SceneDelegate.swift in Sources */,
+				CCF61D1F23A66B6800633A84 /* MyTrips.xcdatamodeld in Sources */,
+				CC445D4C23A68FF80054FE78 /* TripDetail.swift in Sources */,
+				CCDBF03123A923B2005798A9 /* AddTripDateField.swift in Sources */,
+				CC445D4823A679710054FE78 /* TripList.swift in Sources */,
+				CC445D4623A673660054FE78 /* TripRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCF61D2723A66B6900633A84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF61D2823A66B6900633A84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF61D2B23A66B6900633A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCF61D2C23A66B6900633A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF61D2E23A66B6900633A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MyTrips/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MyTrips/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = giulia.com.MyTrips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCF61D2F23A66B6900633A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MyTrips/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MyTrips/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = giulia.com.MyTrips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF61D1123A66B6800633A84 /* Build configuration list for PBXProject "MyTrips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF61D2B23A66B6900633A84 /* Debug */,
+				CCF61D2C23A66B6900633A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF61D2D23A66B6900633A84 /* Build configuration list for PBXNativeTarget "MyTrips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF61D2E23A66B6900633A84 /* Debug */,
+				CCF61D2F23A66B6900633A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCF61D1D23A66B6800633A84 /* MyTrips.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCF61D1E23A66B6800633A84 /* MyTrips.xcdatamodel */,
+			);
+			currentVersion = CCF61D1E23A66B6800633A84 /* MyTrips.xcdatamodel */;
+			path = MyTrips.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCF61D0E23A66B6800633A84 /* Project object */;
+}
